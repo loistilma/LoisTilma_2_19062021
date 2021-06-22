@@ -1,0 +1,10 @@
+/* For mobile phones: */
+
+.navs-wrap {
+    display: flex;
+    flex-wrap: wrap;    
+}
+
+.nav-item, .filter-item {
+    flex: 1 1 50%;
+}

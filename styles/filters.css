@@ -1,0 +1,10 @@
+/* For mobile phones: */
+
+.filters-wrap {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.filter-title {
+    flex: 1 1 100%;
+}

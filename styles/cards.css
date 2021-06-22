@@ -1,0 +1,60 @@
+/* For mobile phones: */
+
+.populars-wrap, .lodgings-wrap, .activities-wrap {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.lodgings-wrap img {
+    height: 115px;
+}
+
+.populars-wrap img {
+    height: 140px;
+}
+
+.activities-wrap img {
+    height: 130px;
+}
+
+.popular-title {
+    flex: 1 1 100%;
+}
+
+img {
+    width: 100%;
+    object-fit: cover;
+}
+
+figure {
+    /*position: relative; figcaption hover img */
+    width: 100%;
+}
+
+/* figcaption hover img
+figcaption {
+    position:absolute;
+} 
+*/
+
+.cards {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.popular-card {
+    display: flex;
+}
+
+.popular-img {
+    flex: 0 0 40%;
+}
+
+.lodging-card {
+    display: flex;
+    flex-wrap: wrap; 
+}
+
+.lodging-img {
+    flex: 0 0 100%;
+}

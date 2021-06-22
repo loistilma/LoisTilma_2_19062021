@@ -1,0 +1,6 @@
+/* For mobile phones: */
+
+.sections-wrap {
+    display: flex;
+    flex-wrap: wrap;
+}
