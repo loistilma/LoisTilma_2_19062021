@@ -1,60 +1,58 @@
 /* For mobile phones: */
 
+img {
+    width: 100%;
+    object-fit: cover;
+    height: 100%
+}
+
 .populars-wrap, .lodgings-wrap, .activities-wrap {
     display: flex;
     flex-wrap: wrap;
 }
 
-.lodgings-wrap img {
-    height: 115px;
-}
-
-.populars-wrap img {
-    height: 140px;
-}
-
-.activities-wrap img {
-    height: 130px;
-}
-
-.popular-title {
-    flex: 1 1 100%;
-}
-
-img {
-    width: 100%;
-    object-fit: cover;
+.section-title {
+    flex: 100%;
 }
 
 figure {
-    /*position: relative; figcaption hover img */
     width: 100%;
 }
 
-/* figcaption hover img
 figcaption {
-    position:absolute;
-} 
-*/
-
-.cards {
     display: flex;
-    flex-wrap: wrap;
+    align-items: initial;
+    flex-direction:column;
+}
+
+.sections-wrap figcaption > p:nth-child(1), .sections-wrap figcaption > p:nth-child(2) {
+    flex: 1;
+}
+
+figcaption > p:last-of-type {
+    flex: none;
 }
 
 .popular-card {
     display: flex;
+    align-items: initial;
+    height: 140px;
 }
 
 .popular-img {
     flex: 0 0 40%;
 }
 
-.lodging-card {
+.lodging-card, .activity-card {
     display: flex;
-    flex-wrap: wrap; 
+    align-items: initial;
+    flex-direction: column;
 }
 
 .lodging-img {
-    flex: 0 0 100%;
+    height: 115px;
+}
+
+.activity-img {
+    height: 135px;
 }

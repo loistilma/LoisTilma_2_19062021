@@ -1,0 +1,38 @@
+/* For mobile phones: */
+
+a {
+    text-decoration: none;
+    color: black;
+}
+.populars-wrap, footer, .fa-map-marker-alt {
+    background-color: #F2F2F2;
+}
+
+.nav-subscribe, .fas {
+    color: #0065FC;
+}
+
+button {
+    background-color: #0065FC;
+}
+
+.unchecked {
+    color: #F2F2F2;
+}
+
+.fa-map-marker-alt, .fa-chart-line, ::placeholder {
+    color: black;
+}
+
+::placeholder {
+    color: black;
+    opacity: 1; /* firefox */
+}
+
+.fa-search {
+    color: #FFFF;
+}
+
+[class$="-card"] {
+    background-color: #FFFF;
+}
