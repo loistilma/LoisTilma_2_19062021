@@ -15,10 +15,6 @@ img {
     flex-wrap: wrap;
 }
 
-.section-title {
-    flex: 100%;
-}
-
 figcaption {
     display: flex;
     align-items: initial;

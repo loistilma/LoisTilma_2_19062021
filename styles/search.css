@@ -1,5 +1,9 @@
 /* For mobile phones: */
 
+form {
+    display: inline-flex;
+}
+
 button > span {
     display: none;
 }

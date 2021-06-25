@@ -8,3 +8,7 @@
 .filter-title {
     flex: 1 1 100%;
 }
+
+.filter-item {
+    display: inline-flex;
+}

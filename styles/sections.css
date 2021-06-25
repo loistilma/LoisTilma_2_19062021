@@ -4,3 +4,9 @@
     display: flex;
     flex-wrap: wrap;
 }
+
+.section-title {
+    flex: 100%;
+    display: inline-flex;
+    justify-content: space-between;    
+}
