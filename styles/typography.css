@@ -4,35 +4,43 @@
     font-family: 'Raleway', sans-serif;
 }
 
-.nav-subscribe, figcaption > p:nth-child(1), 
-h2, figcaption > p:nth-child(2) span, 
-.add-card, .activities-wrap figcaption, 
+h2, /*Section title*/
 footer > ul > li:first-of-type, 
-.filters-wrap, [placeholder] {
+.nav-register, 
+.filters-wrap, 
+figcaption > p:nth-child(1), /*Card title*/
+figcaption > p:nth-child(2) span, /*Euro sign*/
+.add-card, /*Afficher plus*/
+.activities-wrap figcaption, 
+[placeholder] {
     font-weight: 700;
 }
 
-.nav-item > :not(.nav-subscribe),
-h2 + p ,
-figcaption > p:nth-child(2), 
+h2 + p, /*First <p> after h2*/
+.nav-item > :not(.nav-register), /*Nav item except "S'inscrire"*/
+figcaption > p:nth-child(2), /*Card details*/
 .info-wrap > span {
     font-weight: 400;
 }
 
-h2, .section-title {
+h2 {
     font-size: 22px;
 }
 
-figcaption > p:nth-child(1), .activities-wrap figcaption, 
-footer > ul > li:first-of-type, .add-card, 
+figcaption > p:nth-child(1), 
+.activities-wrap figcaption, 
+footer > ul > li:first-of-type, 
+.add-card, 
 [placeholder] {
     font-size: 16px;
 }
 
-header, h2 + p, .info-wrap > span, 
-figcaption > p:nth-child(2), figcaption > p:nth-child(2) span, 
-.filters-wrap, footer > ul > li:not(:first-of-type) {
+header, 
+h2 + p, 
+footer > ul > li:not(:first-of-type), 
+.filters-wrap, 
+.info-wrap > span, 
+figcaption > p:nth-child(2), 
+figcaption > p:nth-child(2) span {
     font-size: 15px;
 }
-
-

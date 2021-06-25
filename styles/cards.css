@@ -1,5 +1,9 @@
 /* For mobile phones: */
 
+a {
+    width: 100%;
+}
+
 img {
     width: 100%;
     object-fit: cover;
@@ -15,14 +19,10 @@ img {
     flex: 100%;
 }
 
-figure {
-    width: 100%;
-}
-
 figcaption {
     display: flex;
     align-items: initial;
-    flex-direction:column;
+    flex-direction: column;
 }
 
 .sections-wrap figcaption > p:nth-child(1), .sections-wrap figcaption > p:nth-child(2) {
@@ -46,11 +46,12 @@ figcaption > p:last-of-type {
 .lodging-card, .activity-card {
     display: flex;
     align-items: initial;
-    flex-direction: column;
+    flex-direction: column; 
 }
 
 .lodging-img {
     height: 115px;
+
 }
 
 .activity-img {

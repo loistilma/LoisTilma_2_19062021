@@ -4,11 +4,12 @@ a {
     text-decoration: none;
     color: black;
 }
-.populars-wrap, footer, .fa-map-marker-alt {
+
+footer, .populars-wrap, .fa-map-marker-alt {
     background-color: #F2F2F2;
 }
 
-.nav-subscribe, .fas {
+.nav-register, .fas {
     color: #0065FC;
 }
 
