@@ -16,7 +16,7 @@ figcaption > p:nth-child(2) span, /*Euro sign*/
 
 h1 + p, /*First <p> after h1*/
 footer > ul > li:not(:first-of-type), /* All <li> after footer titles*/ 
-.nav-item > :not(.nav-register), /*Nav item except "S'inscrire"*/
+.navs-wrap > li:not(.nav-register), /*Nav item except "S'inscrire"*/
 figcaption > p:nth-child(2), /*Card details*/
 .info-wrap > span {
     font-weight: 400;
@@ -26,16 +26,16 @@ h1, h2 {
     font-size: 22px;
 }
 
+header, 
 h3, 
+.filters-wrap, 
 .add-card, 
 [placeholder] {
     font-size: 16px;
 }
 
-header, 
 h1 + p, 
 footer > ul > li:not(:first-of-type), 
-.filters-wrap, 
 .info-wrap > span, /* Info text */ 
 figcaption > p:nth-child(2), 
 figcaption > p:nth-child(2) span {

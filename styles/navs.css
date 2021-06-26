@@ -8,3 +8,31 @@
 .nav-item, .filter-item {
     flex: 1 1 50%;
 }
+
+.navs-wrap > li:not(.nav-register) > a {
+    display: inline-flex;
+    justify-content: center;
+}
+
+.navs-wrap > li:not(:first-of-type):not(.nav-register):not(.nav-active) {
+    border-style: none none solid none;
+    border-width: 3px;
+    border-color: #F2F2F2;
+}
+
+.nav-active {
+    border-style: none none solid none;
+    border-width: 3px;
+    border-color: #0065FC;
+    color: #0065FC;
+}
+
+.nav-register {
+    display: inline-flex;
+    justify-content: right;
+}
+
+.nav-item:first-of-type > img {
+    height: auto;
+    width: 50%;
+}

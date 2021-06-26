@@ -21,7 +21,7 @@ figcaption {
     flex-direction: column;
 }
 
-.sections-wrap figcaption > p:nth-child(1), .sections-wrap figcaption > p:nth-child(2) {
+h3, .sections-wrap figcaption > p:nth-child(2) {
     flex: 1;
 }
 
