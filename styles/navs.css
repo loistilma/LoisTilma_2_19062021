@@ -29,10 +29,10 @@
 
 .nav-register {
     display: inline-flex;
-    justify-content: right;
+    justify-content: flex-end;
 }
 
 .nav-item:first-of-type > img {
-    height: auto;
-    width: 50%;
+    height: 100%;
+    width: 100px;
 }
