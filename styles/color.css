@@ -9,7 +9,7 @@ footer, .populars-wrap, .fa-map-marker-alt {
     background-color: #F2F2F2;
 }
 
-.nav-register, .fas {
+.nav-register, .filter-item > .fas, .fa-info, .fa-star {
     color: #0065FC;
 }
 
@@ -21,8 +21,8 @@ button {
     color: #F2F2F2;
 }
 
-.fa-map-marker-alt, .fa-chart-line, ::placeholder {
-    color: black;
+.fa-map-marker-alt, .fa-chart-line, [placeholder] {
+    color: inherit;
 }
 
 ::placeholder {

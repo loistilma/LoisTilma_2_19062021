@@ -1,0 +1,18 @@
+/* For mobile phones: */
+
+.info-wrap {
+    display: inline-flex;
+    align-items: initial;
+}
+
+.fa-info {
+    align-self: baseline;
+    border: 1px solid #F2F2F2;
+    padding: 3px 7px 3px 7px;
+    border-radius: 60px;
+}
+
+.info-wrap > span:nth-child(2) {
+    align-self: baseline;
+    padding-left: 10px;
+}
