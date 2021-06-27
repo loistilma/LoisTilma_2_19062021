@@ -3,6 +3,7 @@
 .filters-wrap {
     display: flex;
     flex-wrap: wrap;
+    justify-content: space-between;
 }
 
 .filter-title {
@@ -10,5 +11,34 @@
 }
 
 .filter-item {
-    display: inline-flex;
+    /*flex: 1 1 50%;*/
+    /*padding: 0 18px 0 0;*/
+    border: 2px solid #F2F2F2;
+    border-radius: 60px;
 }
+
+.filter-item > span:first-of-type {
+    background-color: #DEEBFF;
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+    border: solid #DEEBFF;
+    border-radius: 60px;
+    padding: 12px 10px 12px 10px;
+    margin: -2px;
+}
+
+.filter-item > span:nth-child(2) {
+    padding: 0 20px 0 8px;
+}
+
+/*
+.filter-item .fas {
+    display: inline-block;
+    margin: auto;
+    padding: 13px 18px 13px 18px;
+    border: solid;
+    border-radius: 60px;
+    width: 7px;
+}
+*/

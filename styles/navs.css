@@ -1,11 +1,15 @@
 /* For mobile phones: */
 
+.nav-item > a {
+    width: 100%;
+}
+
 .navs-wrap {
     display: flex;
     flex-wrap: wrap;    
 }
 
-.nav-item, .filter-item {
+.nav-item {
     flex: 1 1 50%;
 }
 
