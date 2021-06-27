@@ -21,7 +21,7 @@ figcaption {
     flex-direction: column;
 }
 
-h3, .sections-wrap figcaption > p:nth-child(2) {
+.sections-wrap figcaption > p:nth-child(2) {
     flex: 1;
 }
 
@@ -32,7 +32,7 @@ figcaption > p:last-of-type {
 .popular-card {
     display: flex;
     align-items: initial;
-    height: 140px;
+    height: 130px;
 }
 
 .popular-img {
@@ -52,4 +52,85 @@ figcaption > p:last-of-type {
 
 .activity-img {
     height: 135px;
+}
+
+.popular-card {
+    padding: 5px;
+    border-radius: 25px;
+}
+
+.popular-img > img {
+    border-radius: 20px 0 0 20px;
+}
+
+.popular-card > figcaption {
+    padding: 8px 20px 8px 20px;
+}
+
+.popular-card > figcaption > h3 {
+    padding-bottom: 5px;
+}
+
+.lodging-card {
+    border: 1px solid #F2F2F2;
+    padding: 5px;
+    border-radius: 25px 25px 25px 25px;
+}
+
+.lodging-img > img {
+    border-radius: 20px 20px 0 0;
+}
+
+.lodging-card > figcaption {
+    padding: 8px 10px 0px 10px;
+    line-height: 130%;
+}
+
+.activity-card {
+    border: 1px solid #F2F2F2;
+    border-radius: 25px 25px 25px 25px;
+}
+
+.activity-img > img {
+    border-radius: 20px 20px 0 0;
+}
+
+.activity-card > figcaption {
+    padding: 16px 17px 16px 17px;
+}
+
+[class$="-card"]:not(.add-card) {
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.05);
+}
+
+.populars-wrap a, .lodgings-wrap a:not(.add-card) {
+    margin-bottom: 12px;
+}
+
+.activities-wrap a {
+    margin-bottom: 25px;
+}
+
+.lodgings-wrap > h2 {
+    padding: 35px 0 20px 0;
+}
+
+.populars-wrap > h2 {
+    padding: 30px 0 30px 0;
+}
+
+/*.populars-wrap {
+    padding-bottom: 28px;
+}*/
+
+section a:last-of-type:not(.add-card) {
+    margin-bottom: 40px;
+}
+
+.add-card {
+    padding: 15px 0 15px 0;
+}
+
+.activities-wrap > h2 {
+    padding: 35px 0 25px 0;
 }

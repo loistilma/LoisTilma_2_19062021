@@ -1,0 +1,11 @@
+footer h3 {
+    padding: 33px 0 20px 0;
+}
+
+footer > ul:last-of-type > li:last-of-type {
+    padding-bottom: 20px;
+}
+
+footer > ul > li:not(:first-of-type) {
+    line-height: 200%;
+}

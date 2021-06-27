@@ -29,9 +29,12 @@ h1, h2 {
 header, 
 h3, 
 .filters-wrap, 
-.add-card, 
 [placeholder] {
     font-size: 16px;
+}
+
+.add-card {
+    font-size: 18px;
 }
 
 h1 + p, 
