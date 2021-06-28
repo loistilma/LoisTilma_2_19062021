@@ -11,3 +11,12 @@ body > :not(header):not(.sections-wrap), footer,
 .populars-wrap, .lodgings-wrap, .activities-wrap {
     padding: 0 20px 0 20px;
 }
+
+h1 {
+    margin-top: 35px;
+    margin-bottom: 15px;
+}
+
+.nav-logo, .nav-register {
+    padding: 0 20px 0 20px;
+}

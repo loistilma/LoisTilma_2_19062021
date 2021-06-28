@@ -40,3 +40,8 @@ form > .fa-map-marker-alt {
     border-radius: 15px 0 0 15px;
     padding: 15px 18px 15px 18px;
 }
+
+.search-wrap {
+    margin-top: 35px;
+    margin-bottom: 30px;
+}

@@ -3,6 +3,8 @@
 .info-wrap {
     display: inline-flex;
     align-items: initial;
+    margin-top: 25px;
+    margin-bottom: 30px;
 }
 
 .fa-info {

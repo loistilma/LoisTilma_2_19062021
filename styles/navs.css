@@ -1,6 +1,6 @@
 /* For mobile phones: */
 
-.nav-item > a {
+.navs-wrap li > a {
     width: 100%;
 }
 
@@ -9,8 +9,22 @@
     flex-wrap: wrap;    
 }
 
-.nav-item {
-    flex: 1 1 50%;
+.nav-active, .nav-inactive {
+    flex: 1;
+    padding-bottom: 13px;
+}
+
+.nav-logo {
+    flex: 1;
+}
+
+.nav-register {
+    flex: 50%;
+}
+
+.nav-logo, .nav-register {
+    padding-top: 20px;
+    padding-bottom: 20px;
 }
 
 .navs-wrap > li:not(.nav-register) > a {
@@ -36,7 +50,7 @@
     justify-content: flex-end;
 }
 
-.nav-item:first-of-type > img {
+.nav-logo > img {
     height: 100%;
     width: 100px;
 }
