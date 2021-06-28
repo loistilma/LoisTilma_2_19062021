@@ -14,17 +14,16 @@
 .filter-item {
     border: 2px solid #F2F2F2;
     border-radius: 60px;
+    cursor: pointer;
 }
 
 .filter-item:hover {
-    /*padding: 5px 5px 5px 5px;*/
     border: 2px solid #E5E5E5;
 }
 
 .filter-item:hover span:first-of-type {
     background-color: #D1DEF2;
     border: solid #D1DEF2;
-    padding: 14px 12px 14px 12px;
 }
 
 .filter-item > span:first-of-type {
@@ -41,17 +40,6 @@
 .filter-item > span:nth-child(2) {
     padding: 0 20px 0 8px;
 }
-
-/*
-.filter-item .fas {
-    display: inline-block;
-    margin: auto;
-    padding: 13px 18px 13px 18px;
-    border: solid;
-    border-radius: 60px;
-    width: 7px;
-}
-*/
 
 .filter-item:not(:last-of-type) {
     margin-bottom: 13px;
