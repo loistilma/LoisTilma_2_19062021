@@ -103,34 +103,23 @@ figcaption > p:last-of-type {
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.05);
 }
 
-.populars-wrap a, .lodgings-wrap a:not(.add-card) {
+h2 {
+    padding: 0 0 20px 0;
+}
+
+.populars-wrap a:not(:last-of-type), .lodgings-wrap a {
     margin-bottom: 12px;
 }
 
-.activities-wrap a {
+.activities-wrap a:not(:last-of-type) {
     margin-bottom: 25px;
 }
 
-.lodgings-wrap > h2 {
-    padding: 35px 0 20px 0;
+.populars-wrap, .activities-wrap {
+    padding-top: 30px;
+    padding-bottom: 37px;
 }
 
-.populars-wrap > h2 {
-    padding: 30px 0 30px 0;
-}
-
-/*.populars-wrap {
-    padding-bottom: 28px;
-}*/
-
-section a:last-of-type:not(.add-card) {
-    margin-bottom: 40px;
-}
-
-.add-card {
-    padding: 15px 0 15px 0;
-}
-
-.activities-wrap > h2 {
-    padding: 35px 0 25px 0;
+.lodgings-wrap {
+    padding-top: 30px;
 }
