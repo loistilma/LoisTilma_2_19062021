@@ -1,5 +1,4 @@
-/* For mobile phones: */
-
+/* For all screens*/
 form {
     display: inline-flex;
     width: 100%;
@@ -53,4 +52,21 @@ form > .fa-map-marker-alt {
 .search-wrap {
     margin-top: 35px;
     margin-bottom: 30px;
+}
+
+/* For mobile phones: */
+@media only screen and (min-device-width: 320px) and (max-device-width: 480px) {
+
+
+
+}
+
+/* For tablets: */
+@media only screen and (min-device-width: 481px) and (max-device-width: 768px) {
+
+}
+
+/* For desktops: */
+@media only screen and (min-device-width: 769px) {
+
 }

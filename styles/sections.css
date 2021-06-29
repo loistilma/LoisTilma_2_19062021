@@ -1,12 +1,79 @@
-/* For mobile phones: */
+/* For all screens*/
 
-.sections-wrap {
+.section-title, .add-card {
     display: flex;
-    flex-wrap: wrap;
+    justify-content: space-between;    
 }
 
-.section-title {
-    flex: 100%;
-    display: inline-flex;
-    justify-content: space-between;    
+/* For mobile phones: */
+@media only screen and (min-device-width: 320px) and (max-device-width: 480px) {
+
+    .populars-wrap, .lodgings-wrap, .activities-wrap {
+        padding: 0 20px 0 20px;
+    }
+
+    .sections-wrap {
+        display: flex;
+        flex-wrap: wrap;
+    }
+
+}
+
+/* For tablets: */
+@media only screen and (min-device-width: 481px) and (max-device-width: 768px) {
+
+}
+
+/* For desktops: */
+@media only screen and (min-device-width: 769px) {
+
+    .populars-wrap, .lodgings-wrap {
+        padding: 0 37px 0 37px;
+        border-radius: 25px;
+    }
+
+    .sections-wrap {
+        align-items: initial;
+        display: flex;
+        flex-wrap: wrap;
+    }
+
+    .populars-wrap {
+        flex: 0 0 24%;
+        order: 2;
+    }
+    
+    .lodgings-wrap {
+        flex: 1;
+        order: 1;
+    }
+
+    .activities-wrap {
+        flex: 100%;
+        order: 3;
+    }
+
+    .activities-cards {
+        height: 443px;
+        flex-flow: column wrap;        
+    }
+    #activities {
+        flex: none;
+    }
+
+    .activity-card {
+        flex: 100%;
+    }
+
+    .activity-img {
+        height: 135px;
+    }
+
+    .activities-cards a:nth-child(1), .activities-cards a:nth-child(4) {
+        flex: 1 1 100%;
+    }
+
+    .activities-cards a:nth-child(1) .activity-img, .activities-cards a:nth-child(4) .activity-img {
+        height: 390px;
+    }
 }

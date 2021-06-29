@@ -1,10 +1,73 @@
-/* For mobile phones: */
+/* For all screens*/
+.navs-wrap {
+    display: flex;
+    flex-wrap: wrap;    
+}
 
 .navs-wrap li > a {
     width: 100%;
 }
 
-.navs-wrap {
+.nav-logo > img {
+    height: 100%;
+    width: 100px;
+}
+
+
+/* For mobile phones: */
+@media only screen and (min-device-width: 320px) and (max-device-width: 480px) {
+
+    .nav-logo, .nav-register {
+        padding: 0 20px 0 20px;
+    }
+    
+    .nav-active, .nav-inactive {
+        flex: 1;
+        padding-bottom: 13px;
+    }
+    
+    .nav-logo {
+        flex: 1;
+    }
+    
+    .nav-register {
+        flex: 50%;
+    }
+    
+    .nav-logo, .nav-register {
+        padding-top: 20px;
+        padding-bottom: 20px;
+    }
+    
+    .navs-wrap > li:not(.nav-register) > a {
+        display: inline-flex;
+        justify-content: center;
+    }
+    
+    .navs-wrap > li:not(:first-of-type):not(.nav-register):not(.nav-active) {
+        border-style: none none solid none;
+        border-width: 3px;
+        border-color: #F2F2F2;
+    }
+    
+    .nav-active {
+        border-style: none none solid none;
+        border-width: 3px;
+        border-color: #0065FC;
+        color: #0065FC;
+    }
+    
+    .nav-register {
+        display: inline-flex;
+        justify-content: flex-end;
+    }
+
+}
+
+/* For tablets: */
+@media only screen and (min-device-width: 481px) and (max-device-width: 768px) {
+
+    .navs-wrap {
     display: flex;
     flex-wrap: wrap;    
 }
@@ -50,7 +113,25 @@
     justify-content: flex-end;
 }
 
-.nav-logo > img {
-    height: 100%;
-    width: 100px;
+}
+
+/* For desktops: */
+@media only screen and (min-device-width: 769px) {
+
+    .nav-logo {
+        flex: 1;
+    }
+
+    .nav-register {
+        order: 3;
+    }
+
+    .nav-active {
+        order: 1;
+    }
+
+    .nav-inactive {
+        order: 2;
+    }
+
 }

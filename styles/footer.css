@@ -1,3 +1,4 @@
+/* For all screens*/
 footer h3 {
     padding: 33px 0 20px 0;
 }
@@ -8,4 +9,21 @@ footer > ul:last-of-type > li:last-of-type {
 
 footer > ul > li:not(:first-of-type) {
     line-height: 200%;
+}
+
+/* For mobile phones: */
+@media only screen and (min-device-width: 320px) and (max-device-width: 480px) {
+
+
+
+}
+
+/* For tablets: */
+@media only screen and (min-device-width: 481px) and (max-device-width: 768px) {
+
+}
+
+/* For desktops: */
+@media only screen and (min-device-width: 769px) {
+
 }

@@ -1,8 +1,5 @@
-/* For mobile phones: */
-
-section > a {
-    width: 100%;
-}
+/* For all screens*/
+/*Cards design*/
 
 img {
     width: 100%;
@@ -10,9 +7,10 @@ img {
     height: 100%
 }
 
-.populars-wrap, .lodgings-wrap, .activities-wrap {
+.populars-cards, .lodgings-cards, .activities-cards {
     display: flex;
     flex-wrap: wrap;
+    justify-content: space-between;
 }
 
 figcaption {
@@ -48,10 +46,6 @@ figcaption > p:last-of-type {
 .lodging-img {
     height: 115px;
 
-}
-
-.activity-img {
-    height: 135px;
 }
 
 .popular-card {
@@ -103,23 +97,74 @@ figcaption > p:last-of-type {
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.05);
 }
 
-h2 {
-    padding: 0 0 20px 0;
+
+/* For mobile phones: */
+@media only screen and (min-device-width: 320px) and (max-device-width: 480px) {
+    
+    [class$="-cards"] > a {
+        width: 100%;
+    }
+
+    h2 {
+        padding: 0 0 20px 0;
+    }
+
+    .populars-wrap a:not(:last-of-type), .lodgings-wrap a {
+        margin-bottom: 12px;
+    }
+
+    .activity-img {
+        height: 135px;
+    }
+
+    .activities-wrap a:not(:last-of-type) {
+        margin-bottom: 25px;
+    }
+
+    .populars-wrap, .activities-wrap {
+        padding-top: 30px;
+        padding-bottom: 37px;
+    }
+
+    .lodgings-wrap {
+        padding-top: 30px;
+    }
+
 }
 
-.populars-wrap a:not(:last-of-type), .lodgings-wrap a {
-    margin-bottom: 12px;
+/* For tablets: */
+@media only screen and (min-device-width: 481px) and (max-device-width: 768px) {
+
 }
 
-.activities-wrap a:not(:last-of-type) {
-    margin-bottom: 25px;
-}
+/* For desktops: */
+@media only screen and (min-device-width: 769px) {
 
-.populars-wrap, .activities-wrap {
-    padding-top: 30px;
-    padding-bottom: 37px;
-}
+    .lodgings-wrap, .populars-wrap, .activities-wrap {
+        margin-right: 47px;
+    }
 
-.lodgings-wrap {
-    padding-top: 30px;
+    .lodgings-wrap, .activities-wrap {
+        margin-left: 47px;
+    }
+
+    .lodgings-cards > a {
+        width: 250px;
+    }
+
+    .populars-cards > a {
+        width: 100%;
+    }
+
+    .activities-cards > a {
+        width: 23%;
+    }
+
+    .activities-cards {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-between;
+        align-content: space-between;
+    }
+
 }

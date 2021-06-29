@@ -1,5 +1,4 @@
-/* For mobile phones: */
-
+/* For all screens*/
 .filters-wrap {
     display: flex;
     flex-wrap: wrap;
@@ -23,7 +22,6 @@
 
 .filter-item:hover span:first-of-type {
     background-color: #D1DEF2;
-    border: solid #D1DEF2;
 }
 
 .filter-item > span:first-of-type {
@@ -31,9 +29,8 @@
     display: inline-flex;
     justify-content: center;
     align-items: center;
-    border: solid #DEEBFF;
     border-radius: 60px;
-    padding: 12px 10px 12px 10px;
+    padding: 16px 14px 16px 14px;
     margin: -2px;
 }
 
@@ -41,6 +38,25 @@
     padding: 0 20px 0 8px;
 }
 
-.filter-item:not(:last-of-type) {
+.filter-item {
     margin-bottom: 13px;
+}
+
+/* For mobile phones: */
+@media only screen and (min-device-width: 320px) and (max-device-width: 480px) {
+    
+
+
+}
+
+/* For tablets: */
+@media only screen and (min-device-width: 481px) and (max-device-width: 768px) {
+
+
+    
+}
+
+/* For desktops: */
+@media only screen and (min-device-width: 769px) {
+
 }

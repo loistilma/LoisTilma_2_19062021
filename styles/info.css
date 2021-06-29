@@ -1,9 +1,8 @@
-/* For mobile phones: */
-
+/* For all screens*/
 .info-wrap {
     display: inline-flex;
     align-items: initial;
-    margin-top: 25px;
+    margin-top: 16px;
     margin-bottom: 30px;
 }
 
@@ -17,4 +16,21 @@
 .info-wrap > span:nth-child(2) {
     align-self: baseline;
     padding-left: 10px;
+}
+
+/* For mobile phones: */
+@media only screen and (min-device-width: 320px) and (max-device-width: 480px) {
+    
+
+
+}
+
+/* For tablets: */
+@media only screen and (min-device-width: 481px) and (max-device-width: 768px) {
+
+}
+
+/* For desktops: */
+@media only screen and (min-device-width: 769px) {
+
 }

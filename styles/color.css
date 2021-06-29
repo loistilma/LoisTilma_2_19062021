@@ -1,5 +1,4 @@
-/* For mobile phones: */
-
+/* For all screens*/
 a {
     text-decoration: none;
     color: inherit;
@@ -34,6 +33,20 @@ button {
     color: #FFFF;
 }
 
-[class$="-card"] {
+[class$="-card"]:not(.add-card) {
     background-color: #FFFF;
+}
+
+/* For tablets: */
+@media only screen and (min-device-width: 481px) and (max-device-width: 768px) {
+
+}
+
+/* For desktops: */
+@media only screen and (min-device-width: 769px) {
+
+    .lodgings-wrap {
+        background-color: #F2F2F2;
+    }
+
 }
