@@ -1,8 +1,13 @@
 /* For all screens*/
 
+h2 {
+    padding: 0 0 20px 0;
+}
+
 .section-title, .add-card {
     display: flex;
-    justify-content: space-between;    
+    justify-content: space-between;
+    width: 100%;  
 }
 
 /* For mobile phones: */
@@ -66,11 +71,19 @@
     }
 
     .activity-img {
-        height: 135px;
+        height: 152px;
     }
 
     .activities-cards a:nth-child(1), .activities-cards a:nth-child(4) {
         flex: 1 1 100%;
+    }
+
+    .activities-cards a:nth-child(2) .activity-img {
+        height: 190px;
+    }
+
+    .activities-cards a:nth-child(3) .activity-img {
+        height: 115px;
     }
 
     .activities-cards a:nth-child(1) .activity-img, .activities-cards a:nth-child(4) .activity-img {

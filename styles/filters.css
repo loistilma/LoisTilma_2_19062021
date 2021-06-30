@@ -60,4 +60,12 @@
 /* For desktops: */
 @media only screen and (min-width: 769px) {
 
+    .filters-wrap {
+        align-items: baseline;
+    }
+
+    .filters-wrap > * {
+        margin-right: 25px;
+    }
+
 }
