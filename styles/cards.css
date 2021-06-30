@@ -149,7 +149,7 @@ figcaption > p:last-of-type {
     }
 
     .lodgings-cards > a {
-        width: 250px;
+        flex: 30%;
     }
 
     .populars-cards > a {

@@ -25,8 +25,6 @@ input[type=search]:focus {
     padding-left: 15px;
 }
 
-
-
 button {
     border-style: none;
     border-radius: 15px;
@@ -68,5 +66,23 @@ form > .fa-map-marker-alt {
 
 /* For desktops: */
 @media only screen and (min-device-width: 769px) {
+
+    .border-plus {
+        border: none;
+    }
+
+    .border-plus > button > span {
+        display: initial;
+        color: white;
+        font-weight: 700;
+    }
+
+    .border-plus > button > i {
+        display: none;
+    }
+
+    button {
+        border-radius: 0 15px 15px 0;
+    }
 
 }

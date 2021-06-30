@@ -2,12 +2,6 @@
 .filters-wrap {
     display: flex;
     flex-wrap: wrap;
-    justify-content: space-between;
-}
-
-.filter-title {
-    flex: 1 1 100%;
-    margin-bottom: 15px;
 }
 
 .filter-item {
@@ -45,7 +39,14 @@
 /* For mobile phones: */
 @media only screen and (min-device-width: 320px) and (max-device-width: 480px) {
     
+    .filters-wrap {
+        justify-content: space-between;
+    }
 
+    .filter-title {
+        flex: 1 1 100%;
+        margin-bottom: 15px;
+    }
 
 }
 
@@ -53,7 +54,7 @@
 @media only screen and (min-device-width: 481px) and (max-device-width: 768px) {
 
 
-    
+
 }
 
 /* For desktops: */
