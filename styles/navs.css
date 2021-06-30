@@ -15,7 +15,7 @@
 
 
 /* For mobile phones: */
-@media only screen and (min-device-width: 320px) and (max-device-width: 480px) {
+@media only screen and (min-width: 320px) and (max-width: 480px) {
 
     .nav-logo, .nav-register {
         padding: 0 20px 0 20px;
@@ -65,7 +65,7 @@
 }
 
 /* For tablets: */
-@media only screen and (min-device-width: 481px) and (max-device-width: 768px) {
+@media only screen and (min-width: 481px) and (max-width: 768px) {
 
     .navs-wrap {
     display: flex;
@@ -116,7 +116,7 @@
 }
 
 /* For desktops: */
-@media only screen and (min-device-width: 769px) {
+@media only screen and (min-width: 769px) {
 
     .nav-logo {
         flex: 1;
