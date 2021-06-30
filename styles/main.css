@@ -17,19 +17,19 @@ h1 {
         padding: 0 20px 0 20px;
     }
 
-    .nav-logo, .nav-register {
+}
+
+/* For tablets: */
+@media only screen and (min-width: 481px) and (max-width: 1223px) {
+
+    body > :not(header):not(.sections-wrap) {
         padding: 0 20px 0 20px;
     }
 
 }
 
-/* For tablets: */
-@media only screen and (min-width: 481px) and (max-width: 768px) {
-
-}
-
 /* For desktops: */
-@media only screen and (min-width: 769px) {
+@media only screen and (min-width: 1224px) {
 
     body > :not(.sections-wrap) {
         padding: 0 47px 0 47px;

@@ -25,12 +25,21 @@ h2 {
 }
 
 /* For tablets: */
-@media only screen and (min-width: 481px) and (max-width: 768px) {
+@media only screen and (min-width: 481px) and (max-width: 1223px) {
+
+    .populars-wrap, .lodgings-wrap, .activities-wrap {
+        padding: 0 20px 0 20px;
+    }
+
+    .sections-wrap {
+        display: flex;
+        flex-wrap: wrap;
+    }
 
 }
 
 /* For desktops: */
-@media only screen and (min-width: 769px) {
+@media only screen and (min-width: 1224px) {
 
     .populars-wrap, .lodgings-wrap {
         padding: 0 37px 0 37px;
@@ -89,4 +98,5 @@ h2 {
     .activities-cards a:nth-child(1) .activity-img, .activities-cards a:nth-child(4) .activity-img {
         height: 390px;
     }
+    
 }

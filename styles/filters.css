@@ -51,14 +51,21 @@
 }
 
 /* For tablets: */
-@media only screen and (min-width: 481px) and (max-width: 768px) {
+@media only screen and (min-width: 481px) and (max-width: 1223px) {
 
+    .filters-wrap {
+        justify-content: space-between;
+    }
 
+    .filter-title {
+        flex: 1 1 100%;
+        margin-bottom: 15px;
+    }
 
 }
 
 /* For desktops: */
-@media only screen and (min-width: 769px) {
+@media only screen and (min-width: 1224px) {
 
     .filters-wrap {
         align-items: baseline;

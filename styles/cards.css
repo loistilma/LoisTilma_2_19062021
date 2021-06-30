@@ -128,12 +128,50 @@ figcaption > p:last-of-type {
 }
 
 /* For tablets: */
-@media only screen and (min-width: 481px) and (max-width: 768px) {
+@media only screen and (min-width: 481px) and (max-width: 1223px) {
+
+    .populars-cards {
+        height: 310px;
+    }
+
+    .populars-cards {
+        display: flex;
+        flex-flow: column wrap;
+        justify-content: space-between;
+        align-content: space-between;
+    }
+
+    .populars-cards a:nth-child(1) .popular-img img {
+        height: 220px;
+    }
+
+    .populars-cards a:nth-child(1) .popular-card {
+        display: flex;
+        align-items: initial;
+        flex-direction: column;
+        height: 300px;
+    }
+
+    .populars-cards a:nth-child(1) .popular-img > img {
+        border-radius: 20px 20px 0 0;
+    }
+
+    .lodgings-cards > a {
+        width: 48%;
+    }
+
+    .populars-cards > a {
+        width: 48%;
+    }
+
+    .activities-cards > a {
+        width: 23%;
+    }
 
 }
 
 /* For desktops: */
-@media only screen and (min-width: 769px) {
+@media only screen and (min-width: 1224px) {
 
     .lodgings-wrap, .populars-wrap, .activities-wrap {
         margin-right: 47px;
