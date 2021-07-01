@@ -165,7 +165,19 @@ figcaption > p:last-of-type {
     }
 
     .activities-cards > a {
-        width: 23%;
+        width: 48%;
+    }
+
+    .lodgings-wrap a {
+        margin-bottom: 25px;
+    }
+
+    .activity-img {
+        height: 200px;
+    }
+
+    .activities-wrap a {
+        margin-bottom: 25px;
     }
 
 }

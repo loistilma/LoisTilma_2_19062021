@@ -17,12 +17,18 @@ footer > ul > li:not(:first-of-type) {
 }
 
 /* For tablets: */
-@media only screen and (min-width: 481px) and (max-width: 1223px) {
+@media only screen and (min-width: 481px) and (max-width: 768px) {
+
+
 
 }
 
 /* For desktops: */
-@media only screen and (min-width: 1224px) {
+@media only screen and (min-width: 769px) {
+
+    footer h3 {
+        padding: 33px 0 13px 0;
+    }
 
     footer {
         display: flex;

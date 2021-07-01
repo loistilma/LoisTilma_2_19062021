@@ -65,7 +65,7 @@
 }
 
 /* For tablets: */
-@media only screen and (min-width: 481px) and (max-width: 1223px) {
+@media only screen and (min-width: 481px) and (max-width: 768px) {
 
     .nav-logo, .nav-register {
         padding: 0 20px 0 20px;
@@ -78,6 +78,7 @@
     
     .nav-logo {
         flex: 1;
+        padding-top: 20px;
     }
     
     .nav-register {
@@ -115,7 +116,11 @@
 }
 
 /* For desktops: */
-@media only screen and (min-width: 1224px) {
+@media only screen and (min-width: 769px) {
+
+    header {
+        padding: 0 20px 0 20px;
+    }
 
     .navs-wrap {
         align-items: flex-start;
@@ -123,7 +128,7 @@
 
     .nav-logo {
         flex: 1;
-        padding-top: 30px;
+        padding-top: 20px;
     }
 
     .nav-register {

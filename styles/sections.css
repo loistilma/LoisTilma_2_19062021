@@ -71,9 +71,6 @@ h2 {
         height: 443px;
         flex-flow: column wrap;        
     }
-    #activities {
-        flex: none;
-    }
 
     .activity-card {
         flex: 100%;
