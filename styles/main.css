@@ -1,3 +1,4 @@
+/* For all screens: */
 *, *::before, *::after {
     align-items: center;
     margin: 0;
@@ -10,20 +11,22 @@ h1 {
     margin-bottom: 15px;
 }
 
-/* For mobile phones: */
-@media only screen and (max-width: 480px) {
-    
+/* For mobile phones and tablets: */
+@media only screen and (max-width: 768px) {
+
     body > :not(header):not(.sections-wrap) {
-        padding: 0 20px 0 20px;
+        padding-right: 20px;
+        padding-left: 20px;
     }
 
 }
 
-/* For tablets: */
-@media only screen and (min-width: 481px) and (max-width: 1223px) {
+/* For tablets and small laptops: */
+@media only screen and (min-width: 769px) and (max-width: 1223px) {
 
     body > :not(header):not(.sections-wrap) {
-        padding: 0 20px 0 20px;
+        padding-right: 45px;
+        padding-left: 45px;
     }
 
 }
@@ -31,8 +34,14 @@ h1 {
 /* For desktops: */
 @media only screen and (min-width: 1224px) {
 
-    body > :not(.sections-wrap) {
-        padding: 0 47px 0 47px;
+    h1 {
+        margin-top: 35px;
+        margin-bottom: 8px;
+    }
+
+    body > :not(footer), footer {
+        padding-right: 45px;
+        padding-left: 45px;
     }
 
 }

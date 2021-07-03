@@ -1,37 +1,30 @@
-/* For all screens*/
+/* For all screens: */
+footer {
+    display: flex;
+    flex-flow: column;
+    align-items: baseline;
+    padding-top: 33px;
+    padding-bottom: 30px;
+}
+
 footer h3 {
-    padding: 33px 0 20px 0;
+    padding-bottom: 20px;
 }
 
 footer > ul > li:not(:first-of-type) {
     line-height: 200%;
 }
 
-/* For mobile phones: */
-@media only screen and (max-width: 480px) {
-
-    footer > ul:last-of-type > li:last-of-type {
-        padding-bottom: 20px;
-    }
-
-}
-
-/* For tablets: */
-@media only screen and (min-width: 481px) and (max-width: 768px) {
-
-
-
+footer ul:not(:last-of-type) {
+    padding-bottom: 40px;
 }
 
 /* For desktops: */
 @media only screen and (min-width: 769px) {
 
-    footer h3 {
-        padding: 33px 0 13px 0;
-    }
-
     footer {
         display: flex;
+        flex-flow: row;
         align-items: baseline;
     }
 

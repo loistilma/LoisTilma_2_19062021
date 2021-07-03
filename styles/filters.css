@@ -1,7 +1,12 @@
-/* For all screens*/
+/* For all screens: */
 .filters-wrap {
     display: flex;
     flex-wrap: wrap;
+}
+
+.filter-title {
+    flex: 1 1 100%;
+    margin-bottom: 15px;
 }
 
 .filter-item {
@@ -37,35 +42,29 @@
 }
 
 /* For mobile phones: */
-@media only screen and (max-width: 480px) {
+@media only screen and (max-width: 434px) {
     
     .filters-wrap {
         justify-content: space-between;
     }
 
-    .filter-title {
-        flex: 1 1 100%;
-        margin-bottom: 15px;
-    }
-
 }
 
 /* For tablets: */
-@media only screen and (min-width: 481px) and (max-width: 1223px) {
+@media only screen and (min-width: 435px) and (max-width: 1223px) {
 
-    .filters-wrap {
-        justify-content: space-between;
-    }
-
-    .filter-title {
-        flex: 1 1 100%;
-        margin-bottom: 15px;
+    .filters-wrap > * {
+        margin-right: 25px;
     }
 
 }
 
 /* For desktops: */
 @media only screen and (min-width: 1224px) {
+
+    .filter-title {
+        flex: none;
+    }
 
     .filters-wrap {
         align-items: baseline;

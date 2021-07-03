@@ -1,4 +1,4 @@
-/* For all screens*/
+/* For all screens: */
 a {
     text-decoration: none;
     color: inherit;
@@ -35,11 +35,6 @@ button {
 
 [class$="-card"]:not(.add-card) {
     background-color: #FFFF;
-}
-
-/* For tablets: */
-@media only screen and (min-width: 481px) and (max-width: 1223px) {
-
 }
 
 /* For desktops: */

@@ -1,7 +1,12 @@
 /* For all screens*/
 
 h2 {
-    padding: 0 0 20px 0;
+    padding-bottom: 20px;
+}
+
+.sections-wrap {
+    display: flex;
+    flex-wrap: wrap;
 }
 
 .section-title, .add-card {
@@ -10,30 +15,30 @@ h2 {
     width: 100%;  
 }
 
-/* For mobile phones: */
-@media only screen and (max-width: 480px) {
+.populars-wrap, .activities-wrap, .lodgings-wrap {
+    padding-top: 35px;
+}
+
+.populars-wrap, .activities-wrap {
+    padding-bottom: 45px;
+}
+
+/* For tablets: */
+@media only screen and (max-width: 768px) {
 
     .populars-wrap, .lodgings-wrap, .activities-wrap {
-        padding: 0 20px 0 20px;
-    }
-
-    .sections-wrap {
-        display: flex;
-        flex-wrap: wrap;
+        padding-right: 20px;
+        padding-left: 20px;
     }
 
 }
 
-/* For tablets: */
-@media only screen and (min-width: 481px) and (max-width: 1223px) {
+/* For tablets and small laptops: */
+@media only screen and (min-width: 769px) and (max-width: 1223px) {
 
     .populars-wrap, .lodgings-wrap, .activities-wrap {
-        padding: 0 20px 0 20px;
-    }
-
-    .sections-wrap {
-        display: flex;
-        flex-wrap: wrap;
+        padding-right: 37px;
+        padding-left: 37px;
     }
 
 }
@@ -42,14 +47,14 @@ h2 {
 @media only screen and (min-width: 1224px) {
 
     .populars-wrap, .lodgings-wrap {
-        padding: 0 37px 0 37px;
+        padding-right: 37px;
+        padding-left: 37px;
         border-radius: 25px;
     }
 
     .sections-wrap {
         align-items: initial;
-        display: flex;
-        flex-wrap: wrap;
+        justify-content: space-between;
     }
 
     .populars-wrap {
@@ -58,42 +63,13 @@ h2 {
     }
     
     .lodgings-wrap {
-        flex: 1;
+        flex: 0 0 62%;
         order: 1;
     }
 
     .activities-wrap {
         flex: 100%;
         order: 3;
-    }
-
-    .activities-cards {
-        height: 443px;
-        flex-flow: column wrap;        
-    }
-
-    .activity-card {
-        flex: 100%;
-    }
-
-    .activity-img {
-        height: 152px;
-    }
-
-    .activities-cards a:nth-child(1), .activities-cards a:nth-child(4) {
-        flex: 1 1 100%;
-    }
-
-    .activities-cards a:nth-child(2) .activity-img {
-        height: 190px;
-    }
-
-    .activities-cards a:nth-child(3) .activity-img {
-        height: 115px;
-    }
-
-    .activities-cards a:nth-child(1) .activity-img, .activities-cards a:nth-child(4) .activity-img {
-        height: 390px;
     }
     
 }

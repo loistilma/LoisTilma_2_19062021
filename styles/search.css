@@ -11,7 +11,6 @@ form {
 
 input[type=search] {
     outline: none;
-    flex: 1;
     border: solid #F2F2F2;
     border-width: 1px 0 1px 0;
 }
@@ -63,35 +62,13 @@ form > .fa-map-marker-alt {
 
 }
 
-/* For tablets: */
-@media only screen and (min-width: 481px) and (max-width: 1223px) {
+/* For tablets and desktops: */
+@media only screen and (min-width: 481px) {
 
-    input[type=search] {
-        flex: 0 0 40%;
+    .search-wrap {
+        margin-top: 20px;
+        margin-bottom: 30px;
     }
-
-    .border-plus {
-        border: none;
-    }
-
-    .border-plus > button > span {
-        display: initial;
-        color: white;
-        font-weight: 700;
-    }
-
-    .border-plus > button > i {
-        display: none;
-    }
-
-    button {
-        border-radius: 0 15px 15px 0;
-    }
-
-}
-
-/* For desktops: */
-@media only screen and (min-width: 1224px) {
 
     input[type=search] {
         flex: 0 0 15%;
