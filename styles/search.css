@@ -48,8 +48,22 @@ form > .fa-map-marker-alt {
     margin-bottom: 30px;
 }
 
+/* For small width: */
+@media only screen and (max-width: 363px) {
+
+    button {
+        border-radius: 15px;
+        margin: -1px;
+    }
+
+    input[type=search] {
+        width: 60%;
+    }
+
+}
+
 /* For mobile phones: */
-@media only screen and (max-width: 480px) {
+@media only screen and (min-width: 364px) and (max-width: 480px) {
 
     button {
         border-radius: 15px;
