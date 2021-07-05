@@ -13,12 +13,15 @@
     width: 100px;
 }
 
-
 /* For mobile phones: */
 @media only screen and (max-width: 480px) {
 
-    .nav-logo, .nav-register {
-        padding: 0 20px 0 20px;
+    .nav-logo {
+        padding-left: 20px;
+    }
+
+    .nav-register {
+        padding-right: 20px;
     }
     
     .nav-active, .nav-inactive {
@@ -27,7 +30,7 @@
     }
     
     .nav-logo {
-        flex: 1;
+        flex: 30%;
     }
     
     .nav-register {
