@@ -11,26 +11,32 @@ footer h3 {
     padding-bottom: 20px;
 }
 
-footer > ul > li:not(:first-of-type) {
+footer > ul {
     line-height: 200%;
 }
 
-footer ul:not(:last-of-type) {
+/*footer ul:not(:last-of-type) {
     padding-bottom: 40px;
-}
+}*/
 
+/* For desktops: */
+@media only screen and (max-width: 768px) {
+    footer ul:not(:last-of-type) {
+        padding-bottom: 40px;
+    }
+}
 /* For desktops: */
 @media only screen and (min-width: 769px) {
 
     footer {
+        height: 130px;
         display: flex;
-        flex-flow: row;
+        flex-flow: column wrap;
         align-items: baseline;
     }
 
     footer ul {
-        flex: 30%;
-        padding-bottom: 40px;
+        flex: 70%;
     }
 
 }

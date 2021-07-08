@@ -24,7 +24,7 @@
         padding-right: 20px;
     }
     
-    .nav-active, .nav-inactive {
+    .nav-lodgings, .nav-activities {
         flex: 50%;
         padding-bottom: 13px;
     }
@@ -47,19 +47,26 @@
         justify-content: center;
     }
     
-    .navs-wrap > li:not(:first-of-type):not(.nav-register):not(.nav-active) {
+    .nav-lodgings, .nav-activities {
         border-style: none none solid none;
         border-width: 3px;
         border-color: #F2F2F2;
     }
     
-    .nav-active {
+    /*.nav-lodgings {
+        border-style: none none solid none;
+        border-width: 3px;
+        border-color: #0065FC;
+        color: #0065FC;
+    }*/
+    
+    .nav-lodgings:hover, .nav-activities:hover {
         border-style: none none solid none;
         border-width: 3px;
         border-color: #0065FC;
         color: #0065FC;
     }
-    
+
     .nav-register > a {
         display: inline-flex;
         justify-content: flex-end;
@@ -74,7 +81,7 @@
         padding: 0 20px 0 20px;
     }
     
-    .nav-active, .nav-inactive {
+    .nav-lodgings, .nav-activities {
         flex: 50%;
         padding-bottom: 13px;
     }
@@ -98,19 +105,26 @@
         justify-content: center;
     }
     
-    .navs-wrap > li:not(:first-of-type):not(.nav-register):not(.nav-active) {
+    .nav-lodgings, .nav-activities {
         border-style: none none solid none;
         border-width: 3px;
         border-color: #F2F2F2;
     }
     
-    .nav-active {
+    /*.nav-lodgings {
+        border-style: none none solid none;
+        border-width: 3px;
+        border-color: #0065FC;
+        color: #0065FC;
+    }*/
+
+    .nav-lodgings:hover, .nav-activities:hover {
         border-style: none none solid none;
         border-width: 3px;
         border-color: #0065FC;
         color: #0065FC;
     }
-    
+
     .nav-register > a {
         display: inline-flex;
         justify-content: flex-end;
@@ -142,27 +156,27 @@
         border-color: white;
     }
 
-    .nav-active {
+    .nav-lodgings {
         order: 1;
     }
 
-    .nav-inactive {
+    .nav-activities {
         order: 2;
+    }
+
+    .nav-lodgings, .nav-activities {
+        flex: 0 0 12%;
+        padding-top: 35px;
         border-style: solid none none none;
         border-width: 2px;
         border-color: white;
     }
 
-    .nav-active {
+    .nav-lodgings:hover, .nav-activities:hover {
         border-style: solid none none none;
         border-width: 2px;
         border-color: #0065FC;
         color: #0065FC;
-    }
-
-    .nav-active, .nav-inactive {
-        flex: 0 0 12%;
-        padding-top: 35px;
     }
 
     .nav-register {

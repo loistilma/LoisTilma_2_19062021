@@ -15,7 +15,7 @@ figcaption > p:nth-child(2) span, /*Euro sign*/
 }
 
 h1 + p, /*First <p> after h1*/
-footer > ul > li:not(:first-of-type), /* All <li> after footer titles*/ 
+footer > ul,
 .navs-wrap > li:not(.nav-register), /*Nav item except "S'inscrire"*/
 figcaption > p:nth-child(2), /*Card details*/
 .info-wrap > span:nth-child(2) {
@@ -38,7 +38,7 @@ h3,
 }
 
 h1 + p, 
-footer > ul > li:not(:first-of-type), 
+footer > ul, 
 .info-wrap > span:nth-child(2), /* Info text */ 
 figcaption > p:nth-child(2), 
 figcaption > p:nth-child(2) span {
