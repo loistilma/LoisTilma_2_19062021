@@ -11,17 +11,13 @@ footer h3 {
     padding-bottom: 20px;
 }
 
-footer > ul {
+.footer-url > ul {
     line-height: 200%;
 }
 
-/*footer ul:not(:last-of-type) {
-    padding-bottom: 40px;
-}*/
-
-/* For desktops: */
+/* For mobile: */
 @media only screen and (max-width: 768px) {
-    footer ul:not(:last-of-type) {
+    footer > .footer-url:nth-child(-n+2) > ul {
         padding-bottom: 40px;
     }
 }
@@ -29,14 +25,17 @@ footer > ul {
 @media only screen and (min-width: 769px) {
 
     footer {
-        height: 130px;
         display: flex;
-        flex-flow: column wrap;
-        align-items: baseline;
+        flex-flow: row wrap;
+        padding-top: 33px;
+        padding-bottom: 30px;
     }
 
-    footer ul {
-        flex: 70%;
+    .footer-url {
+        display: flex;
+        flex-flow: column wrap;
+        align-items: initial;
+        flex: 30%;
     }
 
 }

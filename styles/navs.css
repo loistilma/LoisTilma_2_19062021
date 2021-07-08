@@ -53,13 +53,6 @@
         border-color: #F2F2F2;
     }
     
-    /*.nav-lodgings {
-        border-style: none none solid none;
-        border-width: 3px;
-        border-color: #0065FC;
-        color: #0065FC;
-    }*/
-    
     .nav-lodgings:hover, .nav-activities:hover {
         border-style: none none solid none;
         border-width: 3px;
@@ -110,13 +103,6 @@
         border-width: 3px;
         border-color: #F2F2F2;
     }
-    
-    /*.nav-lodgings {
-        border-style: none none solid none;
-        border-width: 3px;
-        border-color: #0065FC;
-        color: #0065FC;
-    }*/
 
     .nav-lodgings:hover, .nav-activities:hover {
         border-style: none none solid none;
