@@ -113,6 +113,9 @@ figcaption > p:last-of-type {
 /* For tablets: */
 @media only screen and (min-width: 481px) and (max-width: 1223px) {
 
+    .populars-wrap {
+        width: 100%;
+    }
     .populars-cards {
         height: 310px;
         display: flex;
